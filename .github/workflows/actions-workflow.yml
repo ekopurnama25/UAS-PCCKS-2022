@@ -5,11 +5,10 @@ jobs:
   build-and-push-image:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    
-    - name: build and tag image
-      run: |
-        docker build -t [change me]/uas-pccks:latest -f Dockerfile .
-    
-    - name: push to dockerhub
-      run: docker login -u ${{secrets.[change me]}} -p ${{secrets.[change me]}} && docker push [change me]/uas-pccks:latest
+      - uses: actions/checkout@v3
+
+      - name: build and tag image
+        run: docker build . --file Dockerfile --tag sinwrecker/dummy-profile:v1
+
+      - name: push to dockerhub
+        run: docker login -u ${{secrets.DOCKERHUB_USERNAME}} -p ${{secrets.DOCKERHUB_SECRET}} && docker push sinwrecker/dummy-profile:v1
