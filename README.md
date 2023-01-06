@@ -1,11 +1,11 @@
 ## Project UAS Pengantar Cloud Computing
 
+### ====================
+
 NAMA : EKO PURNAMA AZI
 NIM : 1122140030
 
-**Note:**
-_Bacalah instruksi dengan seksama sebelum mengerjakan :_
-_Referensi Materi ini bisa anda baca di LMS ataupun sumber lain_
+### ====================
 
 ### Apa yang anda butuhkan :
 
