@@ -2,8 +2,8 @@
 
 ### ====================
 
-NAMA : EKO PURNAMA AZI
-NIM : 1122140030
+- NAMA : EKO PURNAMA AZI
+- NIM : 1122140030
 
 ### ====================
 
